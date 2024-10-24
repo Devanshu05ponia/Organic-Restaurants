@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu with Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f8f8;
+        }
+        h1 {
+            text-align: center;
+        }
+        .dish-type {
+            margin: 20px 0;
+            background-color: lightcoral
+            padding: 15px;
+            border-radius: 8px;
+        }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+        }
+        img {
+            width: 100px; /* Adjust the size as needed */
+            height: auto;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu</h1>
+
+    <div class="dish-type">
+        <h2>Appetizers</h2>
+        <ul>
+            <li img src="/bruchesta.png">bruchesta</li>
+            <li><img src="stuffed_mushrooms.jpg" alt="Stuffed Mushrooms">Stuffed Mushrooms</li>
+            <li><img src="chicken_wings.jpg" alt="Chicken Wings">Chicken Wings</li>
+        </ul>
+    </div>
+
+    <div class="dish-type">
+        <h2>Main Courses</h2>
+        <ul>
+            <li><img src="grilled_salmon.jpg" alt="Grilled Salmon">Grilled Salmon</li>
+            <li><img src="spaghetti_carbonara.jpg" alt="Spaghetti Carbonara">Spaghetti Carbonara</li>
+            <li><img src="vegetable_stir_fry.jpg" alt="Vegetable Stir-fry">Vegetable Stir-fry</li>
+        </ul>
+    </div>
+
+    <div class="dish-type">
+        <h2>Desserts</h2>
+        <ul>
+            <li><img src="chocolate_mousse.jpg" alt="Chocolate Mousse">Chocolate Mousse</li>
+            <li><img src="tiramisu.jpg" alt="Tiramisu">Tiramisu</li>
+            <li><img src="fruit_tart.jpg" alt="Fruit Tart">Fruit Tart</li>
+        </ul>
+    </div>
+
+    <div class="dish-type">
+        <h2>Beverages</h2>
+        <ul>
+            <li><img src="coffee.jpg" alt="Coffee">Coffee</li>
+            <li><img src="tea.jpg" alt="Tea">Tea</li>
+            <li><img src="fresh_juice.jpg" alt="Fresh Juice">Fresh Juice</li>
+        </ul>
+    </div>
+</body>
+</html>
